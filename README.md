@@ -228,4 +228,4 @@ and run
 
 This will remove unnecessary service's files
 
-For more details please checkout [Google Clanader Php Docs ](https://developers.google.com/calendar/api/v3/reference/events "Google Clanader Php Docs ")
+For more details please checkout [Google Calendar Php Docs ](https://developers.google.com/calendar/api/v3/reference/events "Google Clanader Php Docs ")
