@@ -1,6 +1,6 @@
-# Google Calander Library for CodeIgniter
+# Google calendar Library for CodeIgniter
 
-Manage google calander events.
+Manage google calendar events.
 
 
 ### Features
@@ -17,91 +17,91 @@ Manage google calander events.
 #### Setup credentials to communicate with Google Calendar
 - The first step is to obtain credentials to access Google's API. I'm going to assume you already have a Google account and are logged in. Select a project in the [Google API console](https://console.cloud.google.com/apis "Google API console") clicking "Select a project."
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/1.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/1.png)
 
 
 - Click on **ENABLE APIS AND SERVICES**
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/2.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/2.png)
 
 
-- Search for Calander
+- Search for calendar
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/3.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/3.png)
 
 
-- Chose **GOOGLE Calander API**
+- Chose **GOOGLE calendar API**
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/4.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/4.png)
 
 
 - Enable Api
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/5.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/5.png)
 
 
 - Go back to dashboard and Click on Credentials
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/6.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/6.png)
 
 
 - Click On Create Crendentials and chose Service Account
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/7.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/7.png)
 
 
 - Fill up details
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/8.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/8.png)
 
 
 - Finish the setup by clicking on done
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/9.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/9.png)
 
 
 - Click on newly Create Service Account
-**Note the email for nex step. You have to use this email to manage Calander**
+**Note the email for nex step. You have to use this email to manage calendar**
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/10.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/10.png)
 
 
 - Click on keys
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/11.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/11.png)
 
 
 - Click on Add new key
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/12.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/12.png)
 
 
 - Chose Json and Download the key
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/13.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/13.png)
 
 
 ------------
 
-#### Create google calander and give access to service account:
-- Go to Google Calander and Create a new Calander or chose a Calander.
+#### Create google calendar and give access to service account:
+- Go to Google calendar and Create a new calendar or chose a calendar.
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/14.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/14.png)
 
 
 - Scroll down to Share with specific people
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/15.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/15.png)
 
 
 - Click on add people and Add the Service account email ID which you copied or get it from the JSON File
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/16.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/16.png)
 
 
-- Finally Note Down Calander ID
+- Finally Note Down calendar ID
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calander/17.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/17.png)
 
 
 ------------
@@ -114,8 +114,8 @@ Manage google calander events.
 `composer require google/apiclient:^2.11`
 - Download this library by [clicking here](https://github.com/aididalam/CodeIgniter-Google-Calendar/archive/refs/tags/v1.zip "clicking here")
 - Extract the library to your project folder.
-- Open Application/config/gcalander.php file
-- Add Calander ID and Json File Location (which you downloaded when you were generating Service account in the first step) .
+- Open Application/config/gcalendar.php file
+- Add calendar ID and Json File Location (which you downloaded when you were generating Service account in the first step) .
 (I recomend you to put the JSON file in calendarData Folder)
 ```php
 $config['calendarId'] = "CALENDAR_ID";
