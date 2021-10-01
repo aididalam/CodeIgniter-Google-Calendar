@@ -17,68 +17,68 @@ Manage google calendar events.
 #### Setup credentials to communicate with Google Calendar
 - The first step is to obtain credentials to access Google's API. I'm going to assume you already have a Google account and are logged in. Select a project in the [Google API console](https://console.cloud.google.com/apis "Google API console") clicking "Select a project."
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/1.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/1.png)
 
 
 - Click on **ENABLE APIS AND SERVICES**
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/2.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/2.png)
 
 
 - Search for calendar
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/3.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/3.png)
 
 
 - Chose **GOOGLE calendar API**
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/4.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/4.png)
 
 
 - Enable Api
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/5.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/5.png)
 
 
 - Go back to dashboard and Click on Credentials
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/6.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/6.png)
 
 
 - Click On Create Crendentials and chose Service Account
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/7.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/7.png)
 
 
 - Fill up details
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/8.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/8.png)
 
 
 - Finish the setup by clicking on done
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/9.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/9.png)
 
 
 - Click on newly Create Service Account
 **Note the email for nex step. You have to use this email to manage calendar**
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/10.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/10.png)
 
 
 - Click on keys
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/11.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/11.png)
 
 
 - Click on Add new key
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/12.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/12.png)
 
 
 - Chose Json and Download the key
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/13.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/13.png)
 
 
 ------------
@@ -86,22 +86,22 @@ Manage google calendar events.
 #### Create google calendar and give access to service account:
 - Go to Google calendar and Create a new calendar or chose a calendar.
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/14.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/14.png)
 
 
 - Scroll down to Share with specific people
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/15.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/15.png)
 
 
 - Click on add people and Add the Service account email ID which you copied or get it from the JSON File
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/16.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/16.png)
 
 
 - Finally Note Down calendar ID
 
-![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-calendar/17.png)
+![](https://github.com/aididalam/images-for-rep/raw/main/CI-Google-Calendar/17.png)
 
 
 ------------
