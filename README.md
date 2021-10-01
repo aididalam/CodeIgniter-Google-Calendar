@@ -112,7 +112,7 @@ Manage google calander events.
 
 - Install Google App Client via composer:
 `composer require google/apiclient:^2.11`
-- Download this library by [clicking here](https://github.com/aididalam/CodeIgniter-Google-Calander-Library/archive/refs/tags/v2.zip "clicking here")
+- Download this library by [clicking here](https://github.com/aididalam/CodeIgniter-Google-Calendar/archive/refs/tags/v1.zip "clicking here")
 - Extract the library to your project folder.
 - Open Application/config/gcalander.php file
 - Add Calander ID and Json File Location (which you downloaded when you were generating Service account in the first step) .
