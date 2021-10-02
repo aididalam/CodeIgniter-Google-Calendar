@@ -5,7 +5,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * 
  *
  * @author      Aidid Alam
- * @package     Blade
+ * @package     Google Calendar
  * @category    Libraries
  * @version     1.0.0
  * @url         https://github.com/aididalam/CodeInteger-Google-Calander-Library
